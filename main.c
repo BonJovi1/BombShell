@@ -196,7 +196,7 @@ void shell_loop()
 
 int main(int argc, char **argv)
 {
-	curPID = -1;
+    curPID = -1;
     shellPID = getpid();
     ctrlZ = 0;
     signal(SIGINT, sigintHandler);

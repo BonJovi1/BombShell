@@ -94,7 +94,8 @@ void execute_bg(char **args)
 
 int execute_command(char **args, int in, int out)
 {
-    strcpy(curPROCESS, args[0]);
+    if(args[0]!='\0')
+    	strcpy(curPROCESS, args[0]);
     bg = 0;
     int lol = 0;
     ctr_arg = 0;

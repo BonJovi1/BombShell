@@ -2,9 +2,6 @@
 
 void sigintHandler(int sig_num) 
 { 
-    // signal(SIGINT, sigintHandler); 
-    // if(getpid() != shellPID)
-    //     return;
     if(getpid() != shellPID)
         return; 
 
@@ -16,7 +13,6 @@ void sigintHandler(int sig_num)
         {
             if (process_list[k].pid == curPID)
             {
-                // process_list[k].pid = -1;
                 strcpy(process_list[k].status, "killed");
                 break;
             }
@@ -26,18 +22,10 @@ void sigintHandler(int sig_num)
     
     // generate_commandline();
     fflush(stdout); 
-    // return;
 } 
-// void sigintHandler2(int sig_num) 
-// { 
-//     // signal(SIGINT, sigintHandler2); 
-//     printf("\n Use fg command, ctrl \\ won't work! \n");
-//     generate_commandline();
-//     fflush(stdout); 
-// } 
+
 void sigintHandler3(int sig_num) 
 { 
-    // signal(SIGINT, sigintHandler3);
     if(getpid() != shellPID)
         return; 
     
@@ -64,7 +52,6 @@ void sigintHandler3(int sig_num)
 
     }
     curPID=-1;
-    // signal(SIGTSTP, sigintHandler3);
     // generate_commandline();
     fflush(stdout); 
     return;

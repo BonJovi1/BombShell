@@ -267,12 +267,7 @@ int launch_command(char **args, int in, int out)
         if(bg==0)
     	{
             curPID = pid;
-            // do 
-            // {
             wpid = waitpid(pid, &status, WUNTRACED);
-            // } while (!WIFEXITED(status) && !WIFSIGNALED(status));
-            // curPID = -1;
-            
 	    }
 
 	    else 

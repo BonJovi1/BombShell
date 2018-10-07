@@ -29,8 +29,6 @@ char directory[1000];
 struct utsname unameData;
 char home_addr[256];
 int a,b;
-// long long int process_list[1000];
-// char name_list[1000][1000];
 
 typedef struct 
 {

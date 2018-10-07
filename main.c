@@ -147,7 +147,7 @@ void shell_loop()
         no_of_pipes=0;
         
         generate_commandline();
-    	line = read_command();
+        line = read_command();
         args2 = split_command(line, ";");//semi colon separated
         int k = 0;
         while(args2[k] != NULL)

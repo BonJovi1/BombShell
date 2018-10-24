@@ -28,3 +28,4 @@ __noun__
 * unsetenv.c :
 :sparkles: :sparkles:
 * fg : brings running or stopped background process to foreground
+* bg : changes a stopped background job to a running background job

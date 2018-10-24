@@ -27,3 +27,4 @@ __noun__
 * setenv.c :
 * unsetenv.c :
 :sparkles: :sparkles:
+* fg : brings running or stopped background process to foreground

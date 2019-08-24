@@ -30,4 +30,4 @@ __noun__
 * fg : brings running or stopped background process to foreground
 * bg : changes a stopped background job to a running background job
 
-Special Thanks to [Stephen Brennan](https://brennan.io/2015/01/16/write-a-shell-in-c/) for his amazing tutorial for helping me get started.
+Special Thanks to [Stephen Brennan](https://brennan.io/2015/01/16/write-a-shell-in-c/) for his amazing tutorial on how to get started! 

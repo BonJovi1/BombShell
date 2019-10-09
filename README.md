@@ -9,9 +9,9 @@ __noun__
 * the most awesome shell implementation ever 
 
 ## Running the code:
-* run make
-* execute ./bombshell
-* type 'exit' to exit the shell
+* run `make`
+* execute `./bombshell`
+* type `exit` to exit the shell
 
 ## FILES
 * main.c : main file which contains shell loop and parses commands and calls appropriate functions. 

@@ -1,5 +1,5 @@
 # Bombshell
-## by Abhinav Gupta _20171059_
+## by Abhinav Gupta
 
 bombshell:
 /ˈbɒmʃɛl/
